@@ -1,0 +1,17 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.chrome
+.vs
+*.orig
+/app/theme/dist/images/
+/app/theme/media/*
+/app/theme/vendors/jquery-ui/images/
+/app/theme/dist
